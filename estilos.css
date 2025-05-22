@@ -1,7 +1,14 @@
 * {
   box-sizing: border-box;
 }
-
+header .logo {
+  width: 180px;      /* Limita el ancho máximo del logo */
+  height: auto;      /* Mantiene la proporción original */
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
